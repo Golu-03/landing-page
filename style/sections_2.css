@@ -1,0 +1,98 @@
+.content_1{
+    margin-top: 0.4rem;
+    padding: 10px 0px 10px;
+}
+
+
+.content_section_2{
+
+    max-width: 1500px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+}
+
+
+.left_part{
+
+    width: 600px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.3rem;
+    padding: 0px 20px ;
+}
+
+.about_txt{
+    color : #006400;
+}
+
+.more_button{
+    background-color: #007200;
+    padding: 10px 30px ;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: 0.4s;
+    
+    text-transform: capitalize;
+
+}
+
+.more_button:hover{
+    padding-left: 80px;
+}
+
+.heading_content{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+}
+
+.more{
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.right_part{
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.travel_content_img_card{
+    transition: 0.4s;
+}
+.travel_content_img_card:hover{
+    transform: scale(2);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+
+@media screen and (max-width:900px) {
+    .content_1{
+      
+        margin-top: 0.4rem;
+        padding: 10px 0px 10px;
+    }
+    
+    .content_section_2{
+
+        max-width: 1500px;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding: 0px 20px;
+        justify-content: flex-start;
+    }
+    
+}
+
+

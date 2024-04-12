@@ -1,0 +1,19 @@
+.layout_container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 0.3rem;
+
+}
+
+.row_1{
+
+    display: flex;
+
+    flex-wrap: wrap;
+    width: 600px;
+    
+}
+
+
